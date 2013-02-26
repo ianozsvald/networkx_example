@@ -84,5 +84,8 @@ if __name__ == "__main__":
 
     # TODO figure out how to attach an artist to the nodes that I've drawn
     #cid2 = fig.canvas.mpl_connect('pick_event', onpick)
+    # fig.axes[0].axes.texts  # seems to contain the text labels that we've
+    # drawn
+    # fig.axes[0].add_artist  # might let me add an artist
 
     # plt.close()  # close the figure when we're done with it
